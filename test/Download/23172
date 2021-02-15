@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta content="always" name="referrer">
+    <title></title>
+    <!-- baidu statistic -->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?58095391083a29fd6abe79027508981e";
+            var s_baidu = document.getElementsByTagName("script")[0];
+            s_baidu.parentNode.insertBefore(hm, s_baidu);
+        })();
+    </script>
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177360932-1"></script>
+    <script>
+        // console.log(location.href.indexOf('uid='));
+        window.dataLayer = window.dataLayer || [];
+        let ga_url = location.href;
+        let uid_index = ga_url.indexOf('uid=');
+        if (uid_index !== -1) {
+            ga_url = ga_url.substring(0, uid_index - 1);
+        }
+        ga_url += '&uid=1376';
+        ga_url += '&prod=1041';
+        ga_url += '&plan=64';
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-177360932-1', {
+            page_title: 'Beyond Compare',
+            page_location: ga_url,
+        });
+    </script>
+    <!-- Matomo Tag Manager -->
+    <!--
+    <script type="text/javascript">
+        (function () {
+            var _mtm = window._mtm = window._mtm || [];
+            _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.src = 'https://tj.makeding.com/js/container_k4UnbE9O.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    -->
+    <!-- End Matomo Tag Manager -->
+</head>
+<body>
+<script>
+    window.location.href = "/redirect/url?segment=uYA53lVetFfl7phdmc_V5kjtoSOQ8rUA5d3TUqIlssQE6LOq9xe0_7pSKRqZkcTR98iyf3ezd0zoXsU8rVN8r3wauJFQMpX_b_aYRBlLkyUyZa3oGa83XcXqshDcWeDZ-3oAr90rJlggNhfiOIZkLUCg561b9biDgaRg0TK1QPKRTZ5pv3P7Fa6ECxL032s7HQwZsajwKUwkCcSuwpmS0AHVMRevWk1i8Hh8xK1mUZxpKKysS1r0wlYpugyQJB5vBx3LFhIW_9pynhQCcL_noMqD3CCtFtl3yiHG79oqu5FfZGoPij91oSjfYEBm0S2rgjxVvupRfmCNCiDSEuMkoA==";
+</script>
+</body>
+</html>
