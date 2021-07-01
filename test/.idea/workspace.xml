@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3448484c-b05d-48df-9d2a-1e1ae7459bff" name="Default" comment="华为刷题104">
-      <change afterPath="$PROJECT_DIR$/Download/test/test20210701.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t4.py" beforeDir="false" afterPath="$PROJECT_DIR$/t4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Download/test/test20210701.py" beforeDir="false" afterPath="$PROJECT_DIR$/Download/test/test20210701.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +191,7 @@
       <workItem from="1625054931119" duration="701000" />
       <workItem from="1625055922241" duration="5450000" />
       <workItem from="1625116400882" duration="2076000" />
-      <workItem from="1625138327444" duration="6041000" />
+      <workItem from="1625138327444" duration="7909000" />
     </task>
     <task id="LOCAL-00001" summary="简单小题">
       <created>1625055983792</created>
@@ -210,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625065082614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="华为刷题104">
+      <created>1625146284839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625146284843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,10 +238,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="465" y="23" key="#test20210630/0.0.1536.864@0.0.1536.864" timestamp="1625059485275" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1625065082125">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1625146305658">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1625065082125" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1625146305658" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1625055629938">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -274,10 +278,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625139401624" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1625065084421">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1625146287903">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1625065084421" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1625146287903" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1625146239602">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

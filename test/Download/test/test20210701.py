@@ -60,5 +60,11 @@ while True:
         break
 
 
+#最小公倍数
+import math
+a,b = map(int,input().split())
+print(a*b/math.gcd(a, b))
+
+
 
 
