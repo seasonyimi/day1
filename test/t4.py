@@ -16,7 +16,3 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(hell0())
 loop.close()
 
-1020293214100
-6020047215600
-6020055215600
-深圳市龙华区龙华街道办事处 6020071215600
