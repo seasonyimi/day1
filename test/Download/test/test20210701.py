@@ -105,3 +105,11 @@ while True:
     except:
         break
 
+# 输出一个整数，表示输入字符串最后一个单词的长度。
+while True:
+    try:
+        a = input()
+        last = a.strip().split(" ")[-1]
+        print(len(last))
+    except:
+        break
