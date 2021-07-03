@@ -65,6 +65,43 @@ import math
 a,b = map(int,input().split())
 print(a*b/math.gcd(a, b))
 
+#一个数的质子因数，所有数，可重复
+n = int(input())
+i = 2
+while i < (n**0.5)+1:
+    if n % i == 0:
+        print(i,end=' ')
+        n = n // i
+        i = 2
+    else:
+        i += 1
+print(n,end=' ')
 
-
+'''
+字符串排序
+规则 1 ：英文字母从 A 到 Z 排列，不区分大小写。
+规则 2 ：同一个英文字母的大小写同时存在时，按照输入顺序排列。
+规则 3 ：非英文字母的其它字符保持原来的位置。
+'''
+while True:
+    try:
+        a = input()
+        # res是最终返回的字符串的列表形式，char是提取的英文字母。
+        res, char = [False] * len(a), []
+        # 经过这个循环，把相应的非英文字母及其位置存储到了res中。并且把英文字母提取出来了。
+        for i, v in enumerate(a):
+            if v.isalpha():
+                char.append(v)
+            else:
+                res[i] = v
+        # 使用lambda表达式排序，暴力有效。
+        char.sort(key=lambda c: c.lower())
+        # 将char中对应的字符填到res中。
+        for i, v in enumerate(res):
+            if not v:
+                res[i] = char[0]
+                char.pop(0)
+        print("".join(res))
+    except:
+        break
 
