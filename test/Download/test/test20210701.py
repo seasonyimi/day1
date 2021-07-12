@@ -113,3 +113,76 @@ while True:
         print(len(last))
     except:
         break
+
+#先输入n个整数,然后再输入值，进行去重排序后输出
+while True:
+    try:
+        n = int(input())
+        set1 = set({})
+        for i in range(n):
+            set1.add(int(input()))
+        nums = list(set1)
+        nums.sort()
+        for i in nums:
+            print(i)
+    except:
+        break
+
+'''输入描述：
+一个只包含小写英文字母和数字的字符串。
+输出描述：
+一个字符串，为不同字母出现次数的降序表示。若出现次数相同，则按ASCII码的升序输出。'''
+while True:
+    try:
+        str1 = input()#读取字符串
+        str2 = list(str1)#转换list转存入str2
+        str2 = set (str2)#去除重复项
+        str2 = list(str2)#变回list
+        a=[]
+        for i in range (len(str2)):#计算每一项个数
+            num =str1.count(str2[i])
+            a.append((ord(str2[i]),num))#以（asc码，count个数）的形式添加入a里（a为list）用ord()转换为ASCII码
+        a.sort(key=lambda x:x[0])#先ASCII 码升序排列
+        a.sort(key=lambda x:x[1],reverse=True)#再出现次数降序排列，遇到相同的排序会预设按输入次序也就是上行ASCII的sort排序顺序
+        str3=""
+        for i in range (len(a)):
+            str3 = str3+str(chr(a[i][0])) #用chr（）换回字母数字，打印结果
+        print(str3)
+    except:
+        break
+'''输入描述：
+连续输入字符串(输入多次,每个字符串长度小于100)
+输出描述：
+输出到长度为8的新字符串数组'''
+while True:
+    try:
+        s = input()
+        while len(s) >= 8:
+            print(s[:8])
+            s = s[8:]
+        if len(s) > 0:
+            print(s+'0'*(8-len(s)))
+    except:
+        break
+
+'''描述
+数据表记录包含表索引和数值（int范围的正整数），请对表索引相同的记录进行合并，即将相同索引的数值进行求和运算，输出按照key值升序进行输出。
+输入描述：
+先输入键值对的个数
+然后输入成对的index和value值，以空格隔开
+输出描述：
+输出合并后的键值对（多行）'''
+# 读取行数num
+num = int(input())
+# 通过字典存储索引和数值
+dct = {}
+# 读取接下来的num行
+for i in range(num):
+    # 索引和数值
+    idx, val = [int(j) for j in input().split()]
+    # 如果元素未出现，默认值为0，否则累加
+    dct[idx] = dct.get(idx, 0) + val
+
+# 按key升序排列
+for key in sorted(dct.keys()):
+    print(key, dct[key])
