@@ -186,3 +186,31 @@ for i in range(num):
 # 按key升序排列
 for key in sorted(dct.keys()):
     print(key, dct[key])
+
+
+'''
+验证尼科彻斯定理，即：任何一个整数m的立方都可以写成m个连续奇数之和。
+例如：
+1^3=1
+2^3=3+5
+3^3=7+9+11
+4^3=13+15+17+19
+输入一个正整数m（m≤100），将m的立方写成m个连续奇数之和的形式输出。
+本题含有多组输入数据。
+'''
+while True:
+    try:
+        m = int(input())
+        s = []
+        for i in range(1,m**3):
+            if i % 2 != 0:   #先取出所有奇数
+                s.append(i)
+                if m **3 == sum(s[-m:]):   #得到的奇数和都是m个数
+                    s = s[-m:]
+                    break
+        result = str(s[0])   #取得到第一个奇数，之后进行遍历
+        for k in range(1,m):
+            result += '+'+str(s[k])
+        print(result)
+    except:
+        break
