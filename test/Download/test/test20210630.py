@@ -67,3 +67,21 @@ while True:
         break
 
 
+# -*- coding:utf-8 -*-
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+#反转单向链表，后一个指针指向前一个结点，并且将表头指针指向最后一个结点
+class Solution:
+    # 返回ListNode
+    def ReverseList(self, pHead):
+        # write code here
+        if not pHead:
+            return None
+        root = None
+        while pHead:
+            pHead.next,root,pHead = root,pHead,pHead.next
+        return root
+
+

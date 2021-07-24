@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3448484c-b05d-48df-9d2a-1e1ae7459bff" name="Default" comment="华为刷题104">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Download/test/test20210701.py" beforeDir="false" afterPath="$PROJECT_DIR$/Download/test/test20210701.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +194,7 @@
       <workItem from="1625654333030" duration="633000" />
       <workItem from="1626094960648" duration="61000" />
       <workItem from="1626353508780" duration="2000" />
-      <workItem from="1626783167235" duration="1202000" />
+      <workItem from="1626783167235" duration="3960000" />
     </task>
     <task id="LOCAL-00001" summary="简单小题">
       <created>1625055983792</created>
@@ -239,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625316493449</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="华为刷题104">
+      <created>1626784376927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626784376927</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,10 +269,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="465" y="23" key="#test20210630/0.0.1536.864@0.0.1536.864" timestamp="1625059485275" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1625316492861">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1626784376352">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1625316492861" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1626784376352" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1625055629938">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -303,10 +309,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625139401624" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1625316495067">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1626784378578">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1625316495067" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1626784378578" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1625146239602">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
